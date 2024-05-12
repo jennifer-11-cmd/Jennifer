@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>personal portfolio</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#" class="logo">port<span>folio</span>.</a>
+
+        <div class="conatiner">
+            <ul class="navbar__menu" id="menu">
+                <li>
+                    <a href="#Home" class="navbar_links"><span>Home</span></a>
+                </li>
+                <li>
+                    <a href="#About" class="navbar_links">About</a>
+                </li>
+                <li>
+                    <a href="#Services" class="navbar_links">Services</a>
+                </li>
+                <li>
+                    <a href="#Latest" class="navbar_links">Latest</a>
+                </li>
+                <li>
+                    <a href="#Contact" class="navbar_links">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ham" onclick="togglemenu()">
+            <span class="bar-1"></span>
+            <span class="bar-2"></span>
+            <span class="bar-3"></span>
+        </div>
+    </div>
+
+    <!--Header Section-->
+    <div class="header" id="Home">
+        <div class="header-row">
+            <div class="col">
+                <h1 class="hh3">Hey, Welcome,</h1>
+                <h1 class="hh1">I'm Eneh Jennifer,</h1>
+                <h2>And I'm a <span>Frontend Developer.</span></h2>
+                <p class="hp">Keep scrolling to know more.</p>
+                <button class="btn">Know More Down Below</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--About Section-->
+    <div id="About">
+        <div class="row">
+            <div class="col2">
+                <img src="port.png">
+            </div>
+
+            <div class="about-col">
+                <h1 class="About-h1">About <span>Me</span></h1>
+                <h2 class="About-h2">Frontend Developer</h2>
+                <p> My name is Jennifer nickednamed "CodeSlayer", I'm a front-end developer and<br> a freelance.
+                    <br>I'm a students of university of nigeria nsuuka(UNN).
+                    <br>I have been in tech for some year now and I have been an active <br>front-end developer for
+                    3years.
+                </p>
+                <button class="about-btn">Explore More</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Services section-->
+    <div id="Services">
+        <h1 class="Servicesh1">My <span>Services</span></h1>
+        <div class="services-row">
+            <div class="services-col">
+                <h2 class="service-sh2">Web Development</h2>
+                <p>I help create website for people for different purposes.</p>
+                <button class="Services-btn">Explore more</button>
+            </div>
+            <div class="services-col">
+                <h2 class="service-sh2">Graphic Design</h2>
+                <p>I design business cards, logos, wedding cards and so on....</p>
+                <button class="Services-btn">Explore more</button>
+            </div>
+        </div>
+    </div>
+
+    <!--latest project-->
+    <div id="Latest">
+        <div class="col-3">
+            <h1>Latest <span>Project</span></h1>
+        </div>
+        <div class="row-1">
+            <div class="img">
+                <img src="pics1.png">
+                <img src="pics2.jpg">
+                <img src="pics3.jpg">
+                <img src="pics5.png">
+                <img src="pics4.jpg">
+                <img src="lintree-clone.png">
+            </div>
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div id="Contact">
+        <h2>Contact <span>Me</span></h2>
+        <form class="form">
+            <div class="row-form">
+                <div class="col-form">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name"><br>
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Number">
+                </div>
+                <div class="col-form2">
+                    <input type="text" placeholder="write a message!">
+                </div>
+
+            </div>
+        </form>
+        <div class="bt">
+            <div class="b">
+                <button class="form-btn">Send Message</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg">
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
